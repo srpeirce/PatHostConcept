@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07CFB657-13C1-4A1A-A352-038437BFE4E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleSubscriber", "src\ExampleSubscriber\ExampleSubscriber.csproj", "{C63A8912-4C47-4898-8C90-477596C23A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatHost", "src\PatHost\PatHost.csproj", "{DFB61EC8-0C8C-4E10-AFB1-61D7E426D4D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C63A8912-4C47-4898-8C90-477596C23A38} = {07CFB657-13C1-4A1A-A352-038437BFE4E0}
+		{DFB61EC8-0C8C-4E10-AFB1-61D7E426D4D6} = {07CFB657-13C1-4A1A-A352-038437BFE4E0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C63A8912-4C47-4898-8C90-477596C23A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63A8912-4C47-4898-8C90-477596C23A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63A8912-4C47-4898-8C90-477596C23A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63A8912-4C47-4898-8C90-477596C23A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB61EC8-0C8C-4E10-AFB1-61D7E426D4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB61EC8-0C8C-4E10-AFB1-61D7E426D4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB61EC8-0C8C-4E10-AFB1-61D7E426D4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB61EC8-0C8C-4E10-AFB1-61D7E426D4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
